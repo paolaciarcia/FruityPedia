@@ -11,19 +11,18 @@ struct FruitCardView: View {
     var body: some View {
         ZStack {
             VStack(spacing: 20) {
-                Image("blueberry")
+                Image.blueberry
                     .resizable()
                     .scaledToFit()
                     .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.15), radius: 8, x: 6, y: 8)
 
-                Text("Blueberry")
+                Text.blueberry
             }
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
         .background(.linearGradient(Gradient(colors: [
-            Color(Colors)
-            Color("ColorBlueberryLight"),
-            Color("ColorBlueberryDark")
+            Color.blueberryLight,
+            Color.blueberryDark
         ]), startPoint: .top, endPoint: .bottom))
         .cornerRadius(20)
     }
