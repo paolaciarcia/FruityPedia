@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C55DE88C2AE18FE7006C2F7B /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55DE88B2AE18FE7006C2F7B /* FruitCardView.swift */; };
+		C55DE88F2AE197AD006C2F7B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55DE88E2AE197AD006C2F7B /* Color+Extension.swift */; };
 		C5DEDE0F2AE173810061A315 /* FruityPediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DEDE0E2AE173810061A315 /* FruityPediaApp.swift */; };
 		C5DEDE112AE173810061A315 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DEDE102AE173810061A315 /* ContentView.swift */; };
 		C5DEDE132AE173860061A315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5DEDE122AE173860061A315 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		C55DE88B2AE18FE7006C2F7B /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
+		C55DE88E2AE197AD006C2F7B /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		C5DEDE0B2AE173810061A315 /* FruityPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruityPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DEDE0E2AE173810061A315 /* FruityPediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruityPediaApp.swift; sourceTree = "<group>"; };
 		C5DEDE102AE173810061A315 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		C55DE88D2AE19791006C2F7B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C55DE88E2AE197AD006C2F7B /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C5DEDE022AE173810061A315 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 			children = (
 				C5DEDE0E2AE173810061A315 /* FruityPediaApp.swift */,
 				C5DEDE102AE173810061A315 /* ContentView.swift */,
+				C55DE88D2AE19791006C2F7B /* Extensions */,
 				C5DEDE122AE173860061A315 /* Assets.xcassets */,
 				C55DE88A2AE18FD2006C2F7B /* Views */,
 				C5DEDE142AE173860061A315 /* Preview Content */,
@@ -151,6 +162,7 @@
 				C55DE88C2AE18FE7006C2F7B /* FruitCardView.swift in Sources */,
 				C5DEDE112AE173810061A315 /* ContentView.swift in Sources */,
 				C5DEDE0F2AE173810061A315 /* FruityPediaApp.swift in Sources */,
+				C55DE88F2AE197AD006C2F7B /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +303,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +332,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
