@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct FruityPediaApp: App {
+    @AppStorage("isOnboarding") private var isOnboarding = true
+
+
     var body: some Scene {
         WindowGroup {
-            OnboardingView()
+            if isOnboarding {
+                OnboardingView()
+            } else {
+                ContentView()
+            }
         }
     }
 }
