@@ -11,6 +11,7 @@
 		C55DE88F2AE197AD006C2F7B /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55DE88E2AE197AD006C2F7B /* Color+Extension.swift */; };
 		C55DE8912AE199D4006C2F7B /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55DE8902AE199D4006C2F7B /* Image+Extension.swift */; };
 		C55DE8932AE19A7A006C2F7B /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55DE8922AE19A7A006C2F7B /* Text+Extension.swift */; };
+		C55DE8952AE19CFF006C2F7B /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55DE8942AE19CFF006C2F7B /* StartButtonView.swift */; };
 		C5DEDE0F2AE173810061A315 /* FruityPediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DEDE0E2AE173810061A315 /* FruityPediaApp.swift */; };
 		C5DEDE112AE173810061A315 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DEDE102AE173810061A315 /* ContentView.swift */; };
 		C5DEDE132AE173860061A315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5DEDE122AE173860061A315 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		C55DE88E2AE197AD006C2F7B /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		C55DE8902AE199D4006C2F7B /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
 		C55DE8922AE19A7A006C2F7B /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
+		C55DE8942AE19CFF006C2F7B /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		C5DEDE0B2AE173810061A315 /* FruityPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruityPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DEDE0E2AE173810061A315 /* FruityPediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruityPediaApp.swift; sourceTree = "<group>"; };
 		C5DEDE102AE173810061A315 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				C55DE88B2AE18FE7006C2F7B /* FruitCardView.swift */,
+				C55DE8942AE19CFF006C2F7B /* StartButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C55DE8952AE19CFF006C2F7B /* StartButtonView.swift in Sources */,
 				C55DE8912AE199D4006C2F7B /* Image+Extension.swift in Sources */,
 				C55DE88C2AE18FE7006C2F7B /* FruitCardView.swift in Sources */,
 				C5DEDE112AE173810061A315 /* ContentView.swift in Sources */,
