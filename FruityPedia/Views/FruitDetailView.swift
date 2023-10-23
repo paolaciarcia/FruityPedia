@@ -24,6 +24,10 @@ struct FruitDetailView: View {
                         Text(fruit.headline)
                             .font(.headline)
                             .multilineTextAlignment(.leading)
+
+                        FruitNutrientsView(fruit: fruit)
+                            .padding(.bottom, 10)
+
                         Text("Learn more about \(fruit.title)".uppercased())
                             .fontWeight(.bold)
                             .foregroundColor(fruit.gradientColors[1])
@@ -34,8 +38,6 @@ struct FruitDetailView: View {
                     .padding(.horizontal, 20)
                     .frame(maxWidth: 640, alignment: .center)
                 }
-                .navigationBarTitle(fruit.title, displayMode: .inline)
-                .navigationBarHidden(true)
             }
             .edgesIgnoringSafeArea(.top)
         }
