@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct FruitHeaderView: View {
+    @State private var isAnimating: Bool = false
+
     var fruit: Fruit
 
     var body: some View {
@@ -19,6 +21,13 @@ struct FruitHeaderView: View {
                 .padding(.vertical, 20)
                 .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.15), radius: 8, x: 6, y: 8)
                 .frame(height: 440)
+                .scaleEffect(isAnimating ? 1.0 : 0.6)
+
+                .onAppear() {
+                    withAnimation(.easeOut(duration: 0.5)) {
+                        isAnimating = true
+                    }
+                }
         }
     }
 }
