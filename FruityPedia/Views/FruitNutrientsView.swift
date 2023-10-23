@@ -12,7 +12,17 @@ struct FruitNutrientsView: View {
     let nutrients: [String] = ["Energy", "Sugar", "Fat", "Protein", "Vitamins", "Minerals"]
 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        GroupBox() {
+            DisclosureGroup("Nutritional value per 100g") {
+                ForEach(0..<nutrients.count, id: \.self) { item in
+                    HStack {
+                        Text(nutrients[item])
+                        Spacer()
+                        Text(fruit.nutrition[item])
+                    }
+                }
+            }
+        }
     }
 }
 
